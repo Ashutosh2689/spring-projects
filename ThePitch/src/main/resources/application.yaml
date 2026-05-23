@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: ThePitch
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/thepitch
+    username: postgres
+    password: 7860
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  flyway:
+    enabled: true
